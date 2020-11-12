@@ -3,9 +3,11 @@ import React from 'react';
 import useSiteMetadata from './useSiteMetadata';
 import { withPrefix } from 'gatsby';
 
-import './all.sass';
+import './all.scss';
+import Footer from './Footer';
+import Header from './Header';
 
-const TemplateWrapper = ({ children }) => {
+const TemplateWrapper = ({ children, testimonial, testimonialAttribution }) => {
   const { title, description } = useSiteMetadata();
   return (
     <div>
@@ -35,8 +37,10 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:title" content={title} />
         <meta property="og:url" content="/" />
         <meta property="og:image" content={`${withPrefix('/')}img/og-image.jpg`} />
-      </Helmet>
-      <div>{children}</div>
+      </Helmet>{' '}
+      <Header />
+      <main className="container">{children}</main>
+      <Footer testimonial={testimonial} testimonialAttribution={testimonialAttribution} />
     </div>
   );
 };

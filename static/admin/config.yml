@@ -12,12 +12,50 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-- name: "pages"
-    label: "Pages"
+  - name: pages
+    label: Pages
     files:
-      - file: "src/pages/index.md"
-        label: "Landing Page"
-        name: "index"
+      - file: src/pages/index.md
+        label: Landing Page
+        name: index
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
-          - {label: Title, name: title, widget: string}
+          - label: Template Key
+            name: templateKey
+            widget: hidden
+            default: IndexPage
+
+          - label: Title
+            name: title
+            widget: string
+
+          - label: Yoga Image
+            name: yogaImage
+            widget: image
+
+          - label: Yoga Blurb
+            name: yogaBlurb
+            widget: text
+
+          - label: Tea Image
+            name: teaImage
+            widget: image
+
+          - label: Tea Blurb
+            name: teaBlurb
+            widget: text
+
+          - label: Good Company Image
+            name: goodCompanyImage
+            widget: image
+
+          - label: Good Company Blurb
+            name: goodCompanyBlurb
+            widget: text
+
+          - label: Testimonial
+            name: testimonial
+            widget: text
+
+          - label: Testimonial Attribution
+            name: testimonialAttribution
+            widget: text
