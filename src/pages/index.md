@@ -1,6 +1,6 @@
 ---
 templateKey: IndexPage
-title: Yoga, Tea & Good Company... | Unity Yoga
+title: Yoga, Tea & Good Company...
 yogaImage: /img/yoga.jpg
 yogaBlurb: Susan Horning teaches yoga privately and in group classes, view the schedule often for new offerings.
 teaImage: /img/tea.jpg

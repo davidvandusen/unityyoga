@@ -1,21 +1,10 @@
-import PropTypes from 'prop-types';
 import React from 'react';
 
 import Teacher from '../../components/Teacher';
 
-const TeacherPagePreview = ({ entry }) => {
-  const data = entry.getIn(['data']).toJS();
-  if (data) {
-    return <Teacher {...data} />;
-  } else {
-    return <div>Loading...</div>;
-  }
-};
-
-TeacherPagePreview.propTypes = {
-  entry: PropTypes.shape({
-    getIn: PropTypes.func,
-  }),
+const TeacherPagePreview = ({ entry, widgetFor }) => {
+  const { teacherImage, title } = entry.getIn(['data']).toJS();
+  return <Teacher teacherName={title} teacherImage={teacherImage} bio={widgetFor('body')} />;
 };
 
 export default TeacherPagePreview;
