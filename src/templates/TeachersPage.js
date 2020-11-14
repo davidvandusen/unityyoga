@@ -11,11 +11,11 @@ export const TeachersPageTemplate = ({ teachers, title }) => (
   <>
     <h1 className="main-heading">{title}</h1>
     {teachers.map(({ teacherBio, teacherName, teacherImage }) => (
-      <article className="teacher">
+      <article key={teacherName} className="teacher">
         <h1>{teacherName}</h1>
         <div className="teacher-content">
           <div className="teacher-image">
-            <PreviewCompatibleImage alt={teacherName} imageInfo={{ image: teacherImage }} />
+            <PreviewCompatibleImage alt={teacherName} src={teacherImage} />
           </div>
           <div className="teacher-bio">
             <ReactMarkdown>{teacherBio}</ReactMarkdown>

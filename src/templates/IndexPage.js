@@ -20,10 +20,8 @@ export const IndexPageTemplate = ({
           {' '}
           <PreviewCompatibleImage
             className="services-item-image"
-            imageInfo={{
-              alt: 'Illustration for Yoga',
-              image: yogaImage,
-            }}
+            alt="Illustration for Yoga"
+            src={yogaImage}
           />{' '}
           <span className="services-item-link-text">Yoga</span>{' '}
         </Link>
@@ -34,10 +32,8 @@ export const IndexPageTemplate = ({
           {' '}
           <PreviewCompatibleImage
             className="services-item-image"
-            imageInfo={{
-              alt: 'Illustration for Tea',
-              image: teaImage,
-            }}
+            alt="Illustration for Tea"
+            src={teaImage}
           />{' '}
           <span className="services-item-link-text">Tea</span>{' '}
         </a>
@@ -48,10 +44,8 @@ export const IndexPageTemplate = ({
           {' '}
           <PreviewCompatibleImage
             className="services-item-image"
-            imageInfo={{
-              alt: 'Illustration for Good Company',
-              image: goodCompanyImage,
-            }}
+            alt="Illustration for Good Company"
+            src={goodCompanyImage}
           />{' '}
           <span className="services-item-link-text">Good Company</span>{' '}
         </a>

@@ -13,6 +13,70 @@ collections:
   - name: pages
     label: Pages
     files:
+      - file: src/pages/layout.md
+        label: Layout
+        name: layout
+        fields:
+          - label: Title
+            name: title
+            widget: hidden
+            default: Layout
+          - label: Background Image
+            name: backgroundImage
+            widget: image
+          - label: Logo
+            name: logoImage
+            widget: image
+          - label: Logo Alt Text
+            name: logoImageAlt
+            widget: string
+          - label: Heading Image
+            name: headingImage
+            widget: image
+          - label: Heading Image Alt Text
+            name: headingImageAlt
+            widget: string
+          - label: Navigation Links
+            name: links
+            widget: list
+            fields:
+              - label: Link Text
+                name: linkText
+                widget: string
+              - label: Link Path
+                name: linkPath
+                widget: string
+          - label: Footer Testimonial Quote Image
+            name: quoteImage
+            widget: image
+          - label: Footer Testimonial
+            name: testimonial
+            widget: text
+          - label: Footer Testimonial Attribution
+            name: testimonialAttribution
+            widget: string
+          - label: Footer Social Heading
+            name: socialHeadingImage
+            widget: image
+          - label: Footer Social Heading Alt Text
+            name: socialHeadingImageAlt
+            widget: string
+          - label: Footer Social Link
+            name: socialHeadingHref
+            widget: string
+          - label: Footer Social Images
+            name: socialImages
+            widget: list
+            fields:
+              - label: Image
+                name: image
+                widget: image
+              - label: Link
+                name: href
+                widget: string
+          - label: Copyright
+            name: copyright
+            widget: string
       - file: src/pages/index.md
         label: Landing Page
         name: index
@@ -91,53 +155,3 @@ collections:
               - label: Photo
                 name: teacherImage
                 widget: image
-      - file: src/pages/navigation.md
-        label: Navigation
-        name: navigation
-        fields:
-          - label: Title
-            name: title
-            widget: hidden
-            default: Navigation
-          - label: Skip Page Creation
-            name: skipPageCreation
-            widget: hidden
-            default: true
-          - label: Links
-            name: links
-            widget: list
-            fields:
-              - label: Link Text
-                name: linkText
-                widget: string
-              - label: Link Path
-                name: linkPath
-                widget: string
-      - file: src/pages/footer.md
-        label: Footer
-        name: footer
-        fields:
-          - label: Title
-            name: title
-            widget: hidden
-            default: Footer
-          - label: Skip Page Creation
-            name: skipPageCreation
-            widget: hidden
-            default: true
-          - label: Testimonial
-            name: testimonial
-            widget: text
-          - label: Testimonial Attribution
-            name: testimonialAttribution
-            widget: string
-          - label: Social Images
-            name: socialImages
-            widget: list
-            fields:
-              - label: Image
-                name: image
-                widget: image
-              - label: Link (optional)
-                name: href
-                widget: string

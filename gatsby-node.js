@@ -14,7 +14,6 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
               slug
             }
             frontmatter {
-              skipPageCreation
               templateKey
             }
           }
@@ -28,7 +27,7 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
   }
   const posts = result.data.allMarkdownRemark.edges;
   posts.forEach((edge) => {
-    if (edge.node.frontmatter.skipPageCreation) return;
+    if (!edge.node.frontmatter.templateKey) return;
     const id = edge.node.id;
     createPage({
       path: edge.node.fields.slug,
