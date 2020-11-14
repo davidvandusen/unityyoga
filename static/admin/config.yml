@@ -113,3 +113,13 @@ collections:
           - label: Testimonial Attribution
             name: testimonialAttribution
             widget: text
+          - label: Social Images
+            name: socialImages
+            widget: list
+            fields:
+              - label: Image
+                name: image
+                widget: image
+              - label: Link (optional)
+                name: href
+                widget: text

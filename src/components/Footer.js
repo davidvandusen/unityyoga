@@ -1,15 +1,25 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import Img from 'gatsby-image';
 import React from 'react';
+import PreviewCompatibleImage from './PreviewCompatibleImage';
 
 const Footer = () => {
   const data = useStaticQuery(graphql`
     query {
       markdownRemark(frontmatter: { title: { eq: "Footer" } }) {
         frontmatter {
+          socialImages {
+            href
+            image {
+              childImageSharp {
+                fluid(maxWidth: 159, maxHeight: 146, cropFocus: CENTER) {
+                  ...GatsbyImageSharpFluid_withWebp
+                }
+              }
+            }
+          }
           testimonialAttribution
           testimonial
-          title
         }
       }
       mobileQuoteImage: file(relativePath: { eq: "quote.png" }) {
@@ -42,7 +52,7 @@ const Footer = () => {
       }
     }
   `);
-  const { testimonial, testimonialAttribution } = data.markdownRemark.frontmatter;
+  const { socialImages, testimonial, testimonialAttribution } = data.markdownRemark.frontmatter;
   return (
     <footer className="site-footer container">
       <div className="site-footer-content">
@@ -85,28 +95,14 @@ const Footer = () => {
             </a>
           </div>
           <div className="site-footer-thumbnails-images">
-            <div className="thumbnail-row">
-              <div className="thumbnail">
-                <img alt="thumbnail" src="https://placehold.it/159x146" />
+            {socialImages.map(({ href, image }) => (
+              <div key={Math.random()} className="thumbnail">
+                <a href={href}>
+                  {' '}
+                  <PreviewCompatibleImage alt="social image thumbnail" imageInfo={{ image }} />{' '}
+                </a>
               </div>
-              <div className="thumbnail">
-                <img alt="thumbnail" src="https://placehold.it/159x146" />
-              </div>
-              <div className="thumbnail">
-                <img alt="thumbnail" src="https://placehold.it/159x146" />
-              </div>
-            </div>
-            <div className="thumbnail-row">
-              <div className="thumbnail">
-                <img alt="thumbnail" src="https://placehold.it/159x146" />
-              </div>
-              <div className="thumbnail">
-                <img alt="thumbnail" src="https://placehold.it/159x146" />
-              </div>
-              <div className="thumbnail mobile-only">
-                <img alt="thumbnail" src="https://placehold.it/159x146" />
-              </div>
-            </div>
+            ))}
           </div>
         </section>
       </div>
