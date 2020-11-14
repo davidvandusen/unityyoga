@@ -1,6 +1,5 @@
 import { graphql, Link } from 'gatsby';
 import { Helmet } from 'react-helmet';
-import PropTypes from 'prop-types';
 
 import React from 'react';
 import Layout from '../components/Layout';
@@ -62,15 +61,6 @@ export const IndexPageTemplate = ({
   </main>
 );
 
-IndexPageTemplate.propTypes = {
-  goodCompanyBlurb: PropTypes.string,
-  goodCompanyImage: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
-  teaBlurb: PropTypes.string,
-  teaImage: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
-  yogaBlurb: PropTypes.string,
-  yogaImage: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
-};
-
 const IndexPage = ({
   data: {
     markdownRemark: {
@@ -79,8 +69,6 @@ const IndexPage = ({
         goodCompanyImage,
         teaBlurb,
         teaImage,
-        testimonial,
-        testimonialAttribution,
         title,
         yogaBlurb,
         yogaImage,
@@ -88,7 +76,7 @@ const IndexPage = ({
     },
   },
 }) => (
-  <Layout testimonial={testimonial} testimonialAttribution={testimonialAttribution}>
+  <Layout>
     {' '}
     <Helmet title={title} />{' '}
     <IndexPageTemplate
@@ -96,20 +84,11 @@ const IndexPage = ({
       goodCompanyImage={goodCompanyImage}
       teaBlurb={teaBlurb}
       teaImage={teaImage}
-      testimonial={testimonial}
       yogaBlurb={yogaBlurb}
       yogaImage={yogaImage}
     />{' '}
   </Layout>
 );
-
-IndexPage.propTypes = {
-  data: PropTypes.shape({
-    markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object,
-    }),
-  }),
-};
 
 export default IndexPage;
 
@@ -133,8 +112,6 @@ export const indexPageQuery = graphql`
             }
           }
         }
-        testimonial
-        testimonialAttribution
         title
         yogaBlurb
         yogaImage {

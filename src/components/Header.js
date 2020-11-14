@@ -1,4 +1,4 @@
-import { graphql, useStaticQuery } from 'gatsby';
+import { graphql, Link, useStaticQuery } from 'gatsby';
 import Img from 'gatsby-image';
 import React from 'react';
 
@@ -31,10 +31,10 @@ const Header = () => {
   return (
     <header className="site-header">
       <div className="site-header-branding">
-        <a href="/">
+        <Link to="/">
           {' '}
           <Img alt="Unity" fixed={data.logoImage.childImageSharp.fixed} />{' '}
-        </a>
+        </Link>
       </div>
       <div className="site-header-heading">
         <Img

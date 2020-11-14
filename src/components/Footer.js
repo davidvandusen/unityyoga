@@ -2,9 +2,16 @@ import { graphql, useStaticQuery } from 'gatsby';
 import Img from 'gatsby-image';
 import React from 'react';
 
-const Footer = ({ testimonial, testimonialAttribution }) => {
+const Footer = () => {
   const data = useStaticQuery(graphql`
     query {
+      markdownRemark(frontmatter: { title: { eq: "Footer" } }) {
+        frontmatter {
+          testimonialAttribution
+          testimonial
+          title
+        }
+      }
       mobileQuoteImage: file(relativePath: { eq: "quote.png" }) {
         childImageSharp {
           fixed(width: 29, quality: 100) {
@@ -35,6 +42,7 @@ const Footer = ({ testimonial, testimonialAttribution }) => {
       }
     }
   `);
+  const { testimonial, testimonialAttribution } = data.markdownRemark.frontmatter;
   return (
     <footer className="site-footer container">
       <div className="site-footer-content">
@@ -62,13 +70,19 @@ const Footer = ({ testimonial, testimonialAttribution }) => {
         )}
         <section className="site-footer-thumbnails">
           <div className="site-footer-thumbnails-heading">
-            <Img
-              alt="#inharmonywithnature"
-              fixed={[
-                data.mobileHashtagImage.childImageSharp.fixed,
-                { ...data.desktopHashtagImage.childImageSharp.fixed, media: '(min-width: 768px)' },
-              ]}
-            />
+            <a href="https://www.instagram.com/explore/tags/inharmonywithnature/">
+              {' '}
+              <Img
+                alt="#inharmonywithnature"
+                fixed={[
+                  data.mobileHashtagImage.childImageSharp.fixed,
+                  {
+                    ...data.desktopHashtagImage.childImageSharp.fixed,
+                    media: '(min-width: 768px)',
+                  },
+                ]}
+              />{' '}
+            </a>
           </div>
           <div className="site-footer-thumbnails-images">
             <div className="thumbnail-row">

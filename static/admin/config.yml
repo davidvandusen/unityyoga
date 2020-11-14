@@ -7,14 +7,58 @@ backend:
     delete: 'Delete {{collection}} “{{slug}}”'
     uploadMedia: '[skip ci] Upload “{{path}}”'
     deleteMedia: '[skip ci] Delete “{{path}}”'
-
 media_folder: static/img
 public_folder: /img
-
 collections:
+  - name: teachers
+    label: Teacher
+    folder: src/data/teachers
+    create: true
+    fields:
+      - label: Template Key
+        name: templateKey
+        widget: hidden
+        default: MarkdownPage
+      - label: Collection
+        name: collection
+        widget: hidden
+        default: teachers
+      - label: Name
+        name: title
+        widget: string
+      - label: Sort Order
+        name: order
+        widget: number
+        default: 1
+        value_type: int
+        min: 1
+      - label: Bio
+        name: body
+        widget: markdown
+      - label: Photo
+        name: teacherImage
+        widget: image
   - name: pages
     label: Pages
     files:
+      - file: src/data/footer.md
+        label: Footer
+        name: footer
+        fields:
+          - label: Title
+            name: title
+            widget: hidden
+            default: Footer
+          - label: Skip Page Creation
+            name: skipPageCreation
+            widget: hidden
+            default: true
+          - label: Testimonial
+            name: testimonial
+            widget: text
+          - label: Testimonial Attribution
+            name: testimonialAttribution
+            widget: text
       - file: src/pages/index.md
         label: Landing Page
         name: index
@@ -23,39 +67,24 @@ collections:
             name: templateKey
             widget: hidden
             default: IndexPage
-
           - label: Title
             name: title
             widget: string
-
           - label: Yoga Image
             name: yogaImage
             widget: image
-
           - label: Yoga Blurb
             name: yogaBlurb
             widget: text
-
           - label: Tea Image
             name: teaImage
             widget: image
-
           - label: Tea Blurb
             name: teaBlurb
             widget: text
-
           - label: Good Company Image
             name: goodCompanyImage
             widget: image
-
           - label: Good Company Blurb
             name: goodCompanyBlurb
-            widget: text
-
-          - label: Testimonial
-            name: testimonial
-            widget: text
-
-          - label: Testimonial Attribution
-            name: testimonialAttribution
             widget: text

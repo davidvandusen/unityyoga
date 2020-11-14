@@ -1,13 +1,13 @@
 import { Helmet } from 'react-helmet';
 import React from 'react';
 import useSiteMetadata from './useSiteMetadata';
-import { withPrefix } from 'gatsby';
+import { Link, withPrefix } from 'gatsby';
 
 import './all.scss';
 import Footer from './Footer';
 import Header from './Header';
 
-const TemplateWrapper = ({ children, testimonial, testimonialAttribution }) => {
+const TemplateWrapper = ({ children, testimonial, testimonialAttribution, withNav = false }) => {
   const { title, description } = useSiteMetadata();
   return (
     <div>
@@ -38,7 +38,13 @@ const TemplateWrapper = ({ children, testimonial, testimonialAttribution }) => {
         <meta property="og:url" content="/" />
         <meta property="og:image" content={`${withPrefix('/')}img/og-image.jpg`} />
       </Helmet>{' '}
-      <Header />
+      <Header />{' '}
+      {withNav && (
+        <nav className="site-navigation">
+          <Link to="/">Home</Link> <Link to="/schedule/">Schedule and Passes</Link>{' '}
+          <Link to="/intro/">Intro to Yoga</Link> <Link to="/teachers/">Teachers</Link>
+        </nav>
+      )}
       <main className="container">{children}</main>
       <Footer testimonial={testimonial} testimonialAttribution={testimonialAttribution} />
     </div>
