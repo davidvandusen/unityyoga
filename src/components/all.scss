@@ -21,6 +21,10 @@ img {
     max-width: 1368px;
   }
 
+  &.no-padding {
+    padding: 0;
+  }
+
   blockquote {
     box-sizing: border-box;
     border-left: 6px solid #eee;
@@ -130,5 +134,91 @@ img {
   @media (min-width: 768px) {
     font-size: 15px;
     margin: 0 8px;
+  }
+}
+
+.services-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+
+.services-item {
+  flex: 1;
+
+  @media (min-width: 768px) {
+    margin-left: 1px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}
+
+.services-image {
+  opacity: 0.85;
+  transition: opacity 300ms;
+}
+
+.services-link {
+  background: black;
+  display: block;
+  position: relative;
+
+  &:hover {
+    .services-image {
+      opacity: 1;
+    }
+
+    .services-name {
+      background: $brandColor;
+      color: white;
+    }
+  }
+}
+
+.services-name {
+  background: rgba(255, 255, 255, 0.8);
+  bottom: 47px;
+  border: 1px solid $brandColor;
+  border-radius: 15px;
+  color: $brandColor;
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  left: 50%;
+  letter-spacing: 0.7px;
+  line-height: 17px;
+  padding: 5px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  transform: translateX(-50%);
+  width: 186px;
+  word-wrap: anywhere;
+
+  @media (min-width: 768px) {
+    border-radius: 18px;
+    bottom: 58px;
+    font-size: 18px;
+    letter-spacing: 0.9px;
+    line-height: 22px;
+    width: 218px;
+  }
+}
+
+.services-blurb {
+  font-size: 16px;
+  line-height: 1.3125;
+  padding: 29px 48px 48px;
+
+  @media (min-width: 768px) {
+    padding: 35px 58px;
   }
 }

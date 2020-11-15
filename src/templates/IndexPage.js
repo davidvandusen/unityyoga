@@ -12,32 +12,34 @@ export const IndexPageTemplate = ({
   yogaBlurb,
   yogaImage,
 }) => (
-  <main>
-    <ol>
-      <li>
-        <Link to="/schedule/">
-          {' '}
-          <PreviewCompatibleImage
-            alt="Illustration for Yoga"
-            src={yogaImage}
-          /> <span>Yoga</span>{' '}
+  <main className="main-content wide no-padding">
+    <ol className="services-list">
+      <li className="services-item">
+        <Link className="services-link" to="/schedule/">
+          <div className="services-image">
+            <PreviewCompatibleImage alt="Illustration for Yoga" src={yogaImage} />
+          </div>
+          <div className="services-name">Yoga</div>
         </Link>
-        <p>{yogaBlurb}</p>
+        <div className="services-blurb">{yogaBlurb}</div>
       </li>
-      <li>
-        <a href="http://unityherbals.ca/">
-          {' '}
-          <PreviewCompatibleImage alt="Illustration for Tea" src={teaImage} /> <span>Tea</span>{' '}
+      <li className="services-item">
+        <a className="services-link" href="http://unityherbals.ca/">
+          <div className="services-image">
+            <PreviewCompatibleImage alt="Illustration for Tea" src={teaImage} />
+          </div>
+          <div className="services-name">Tea</div>
         </a>
-        <p>{teaBlurb}</p>
+        <div className="services-blurb">{teaBlurb}</div>
       </li>
-      <li>
-        <a href="http://unityretreats.ca/">
-          {' '}
-          <PreviewCompatibleImage alt="Illustration for Good Company" src={goodCompanyImage} />{' '}
-          <span>Good Company</span>{' '}
+      <li className="services-item">
+        <a className="services-link" href="http://unityretreats.ca/">
+          <div className="services-image">
+            <PreviewCompatibleImage alt="Illustration for Good Company" src={goodCompanyImage} />
+          </div>
+          <div className="services-name">Good Company</div>
         </a>
-        <p>{goodCompanyBlurb}</p>
+        <div className="services-blurb">{goodCompanyBlurb}</div>
       </li>
     </ol>
   </main>
