@@ -333,10 +333,6 @@ small {
   }
 }
 
-.schedule-page {
-  padding-bottom: 80px;
-}
-
 .schedule-row {
   @media (min-width: 768px) {
     border: 1px solid #eee;
@@ -346,4 +342,8 @@ small {
 
 .schedule-column {
   flex: 1;
+}
+
+.landing-page {
+  padding-bottom: 0;
 }

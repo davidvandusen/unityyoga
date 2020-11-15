@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 import { graphql } from 'gatsby';
 
 export const SchedulePageTemplate = ({ title }) => (
-  <main className="main-content wide schedule-page">
+  <main className="main-content wide">
     <h1 className="main-heading">{title}</h1>
     <div className="desktop-only">
       <iframe
