@@ -11,7 +11,9 @@ export const TeachersPageTemplate = ({ teachers, title }) => (
     {teachers.map(({ teacherBio, teacherName, teacherImage }) => (
       <article key={teacherName}>
         <h1>{teacherName}</h1>
-        <PreviewCompatibleImage alt={teacherName} src={teacherImage} />{' '}
+        <div className="teacher-image">
+          <PreviewCompatibleImage alt={teacherName} src={teacherImage} />
+        </div>
         <ReactMarkdown>{teacherBio}</ReactMarkdown>
       </article>
     ))}
@@ -44,7 +46,7 @@ export const teachersPageQuery = graphql`
           teacherBio
           teacherImage {
             childImageSharp {
-              fluid(maxWidth: 342) {
+              fluid(maxWidth: 400) {
                 ...GatsbyImageSharpFluid_withWebp
               }
             }

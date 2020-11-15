@@ -324,3 +324,13 @@ small {
     padding: 6px;
   }
 }
+
+.teacher-image {
+  margin: 1em 0;
+
+  @media (min-width: 768px) {
+    float: right;
+    margin: 0 0 1em 1em;
+    width: 50%;
+  }
+}
