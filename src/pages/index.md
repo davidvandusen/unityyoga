@@ -1,6 +1,7 @@
 ---
 templateKey: IndexPage
 title: Yoga, Tea & Good Company...
+description: Formerly Unity Yoga Teahouse — Vancouver Yoga Studio
 yogaImage: /img/yoga.jpg
 yogaBlurb: Susan Horning teaches yoga privately and in group classes, view the schedule often for new offerings.
 teaImage: /img/tea.jpg

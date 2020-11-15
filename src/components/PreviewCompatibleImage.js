@@ -6,12 +6,7 @@ const PreviewCompatibleImage = ({ alt = '', src, ...props }) => {
     return <img alt={alt} src={src} {...props} />;
   }
   if (typeof src === 'object' && src.childImageSharp) {
-    if (src.childImageSharp.fixed) {
-      return <Img alt={alt} fixed={src.childImageSharp.fixed} {...props} />;
-    }
-    if (src.childImageSharp.fluid) {
-      return <Img alt={alt} fluid={src.childImageSharp.fluid} {...props} />;
-    }
+    return <Img alt={alt} {...src.childImageSharp} {...props} />;
   }
   return null;
 };

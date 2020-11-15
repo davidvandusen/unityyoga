@@ -1,5 +1,4 @@
 import { graphql, Link } from 'gatsby';
-import { Helmet } from 'react-helmet';
 
 import React from 'react';
 import Layout from '../components/Layout';
@@ -14,42 +13,31 @@ export const IndexPageTemplate = ({
   yogaImage,
 }) => (
   <main>
-    <ol className="services-list">
-      <li className="services-item">
-        <Link className="services-item-link" to="/schedule/">
+    <ol>
+      <li>
+        <Link to="/schedule/">
           {' '}
           <PreviewCompatibleImage
-            className="services-item-image"
             alt="Illustration for Yoga"
             src={yogaImage}
-          />{' '}
-          <span className="services-item-link-text">Yoga</span>{' '}
+          /> <span>Yoga</span>{' '}
         </Link>
-        <p className="services-item-blurb">{yogaBlurb}</p>
+        <p>{yogaBlurb}</p>
       </li>
-      <li className="services-item">
-        <a className="services-item-link" href="http://unityherbals.ca/">
+      <li>
+        <a href="http://unityherbals.ca/">
           {' '}
-          <PreviewCompatibleImage
-            className="services-item-image"
-            alt="Illustration for Tea"
-            src={teaImage}
-          />{' '}
-          <span className="services-item-link-text">Tea</span>{' '}
+          <PreviewCompatibleImage alt="Illustration for Tea" src={teaImage} /> <span>Tea</span>{' '}
         </a>
-        <p className="services-item-blurb">{teaBlurb}</p>
+        <p>{teaBlurb}</p>
       </li>
-      <li className="services-item">
-        <a className="services-item-link" href="http://unityretreats.ca/">
+      <li>
+        <a href="http://unityretreats.ca/">
           {' '}
-          <PreviewCompatibleImage
-            className="services-item-image"
-            alt="Illustration for Good Company"
-            src={goodCompanyImage}
-          />{' '}
-          <span className="services-item-link-text">Good Company</span>{' '}
+          <PreviewCompatibleImage alt="Illustration for Good Company" src={goodCompanyImage} />{' '}
+          <span>Good Company</span>{' '}
         </a>
-        <p className="services-item-blurb">{goodCompanyBlurb}</p>
+        <p>{goodCompanyBlurb}</p>
       </li>
     </ol>
   </main>
@@ -59,6 +47,7 @@ const IndexPage = ({
   data: {
     markdownRemark: {
       frontmatter: {
+        description,
         goodCompanyBlurb,
         goodCompanyImage,
         teaBlurb,
@@ -70,9 +59,8 @@ const IndexPage = ({
     },
   },
 }) => (
-  <Layout>
+  <Layout description={description} title={title}>
     {' '}
-    <Helmet title={title} />{' '}
     <IndexPageTemplate
       goodCompanyBlurb={goodCompanyBlurb}
       goodCompanyImage={goodCompanyImage}
@@ -90,6 +78,7 @@ export const indexPageQuery = graphql`
   query indexPageQuery {
     markdownRemark(frontmatter: { templateKey: { eq: "IndexPage" } }) {
       frontmatter {
+        description
         goodCompanyBlurb
         goodCompanyImage {
           childImageSharp {

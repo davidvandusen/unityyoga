@@ -1,6 +1,7 @@
 ---
 templateKey: TeachersPage
 title: Teachers
+description: Teachers at Unity Yoga
 teachers:
 - teacherName: Susan Horning
   teacherImage: /img/susan-horning.jpg

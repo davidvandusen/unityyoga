@@ -1,9 +1,9 @@
 ---
 templateKey: MarkdownPage
 title: Intro to Yoga and FAQ
+description: An introduction to yoga and chakras
 ---
 Yoga has been practiced for generations as a form of therapy for body, mind and spirit. It is a life enhancing and wellness-promoting form of exercise that not only tones the body, but also relieves the mind and spirit of the pressures of daily life. Many people practice yoga for the physical benefits, but over time notice the effect of yoga penetrates all areas of their life.
-
 
 The term “yoga” translates from the Sanskrit word “yuj” meaning to join, connect, or unify. As a bridle reins in horses in a carriage, yoga is a tool for the mind to cultivate control and purposeful action in the body.  Fluid steady and calm breath, sometimes referred to as prana or life energy, anchors and enhances this union.  Energy flows through the body with complete fluidity and ease when the body and mind are working as one.
 

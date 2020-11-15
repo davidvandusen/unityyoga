@@ -88,6 +88,9 @@ collections:
           - label: Title
             name: title
             widget: string
+          - label: Search Engine Description
+            name: description
+            widget: text
           - label: Yoga Image
             name: yogaImage
             widget: image
@@ -117,6 +120,9 @@ collections:
           - label: Title
             name: title
             widget: string
+          - label: Search Engine Description
+            name: description
+            widget: text
       - file: src/pages/intro.md
         label: Intro
         name: intro
@@ -128,6 +134,9 @@ collections:
           - label: Title
             name: title
             widget: string
+          - label: Search Engine Description
+            name: description
+            widget: text
           - label: Body
             name: body
             widget: markdown
@@ -135,13 +144,16 @@ collections:
         label: Teachers
         name: teachers
         fields:
-          - label: Title
-            name: title
-            widget: string
           - label: Template Key
             name: templateKey
             widget: hidden
             default: TeachersPage
+          - label: Title
+            name: title
+            widget: string
+          - label: Search Engine Description
+            name: description
+            widget: text
           - label: Teachers
             name: teachers
             widget: list

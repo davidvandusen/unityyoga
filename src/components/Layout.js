@@ -2,7 +2,7 @@ import { graphql, Link, useStaticQuery } from 'gatsby';
 import { Helmet } from 'react-helmet';
 import React from 'react';
 
-// import './all.scss';
+import './all.scss';
 import PreviewCompatibleImage from './PreviewCompatibleImage';
 
 export const LayoutTemplate = ({
@@ -24,22 +24,16 @@ export const LayoutTemplate = ({
   withNav = false,
 }) => (
   <>
-    <header className="site-header">
-      <div className="site-header-background">
-        <PreviewCompatibleImage alt="background image" src={backgroundImage} />
-      </div>
-      <div className="site-header-branding">
-        <Link to="/">
-          {' '}
-          <PreviewCompatibleImage alt={logoImageAlt} src={logoImage} />{' '}
-        </Link>
-      </div>
-      <div className="site-header-heading">
-        <PreviewCompatibleImage alt={headingImageAlt} src={headingImage} />
-      </div>
+    <header>
+      <PreviewCompatibleImage alt="background image" src={backgroundImage} />{' '}
+      <Link to="/">
+        {' '}
+        <PreviewCompatibleImage alt={logoImageAlt} src={logoImage} />{' '}
+      </Link>{' '}
+      <PreviewCompatibleImage alt={headingImageAlt} src={headingImage} />
     </header>
     {withNav && (
-      <nav className="site-navigation">
+      <nav>
         {links.map(({ linkText, linkPath }) => (
           <Link key={JSON.stringify({ linkPath, linkText })} to={linkPath}>
             {linkText}
@@ -47,56 +41,51 @@ export const LayoutTemplate = ({
         ))}
       </nav>
     )}
-    <main className="container">{children}</main>
-    <footer className="site-footer container">
-      <div className="site-footer-content">
-        {testimonial && testimonialAttribution && (
-          <section className="site-footer-testimonial">
-            <blockquote className="site-footer-testimonial-quote">
-              <div className="site-footer-testimonial-quote-image">
-                <PreviewCompatibleImage alt="open quotation" src={quoteImage} />
-              </div>
-              <p>{testimonial}</p>
-              <p>
-                <b>{testimonialAttribution}</b>
-              </p>
-            </blockquote>
-          </section>
-        )}
-        <section className="site-footer-thumbnails">
-          <div className="site-footer-thumbnails-heading">
-            <a href={socialHeadingHref}>
-              {' '}
-              <PreviewCompatibleImage alt={socialHeadingImageAlt} src={socialHeadingImage} />{' '}
-            </a>
-          </div>
-          <div className="site-footer-thumbnails-images">
-            {socialImages.map(({ href, image }) => (
-              <div key={String(Math.random())} className="thumbnail">
-                <a href={href}>
-                  {' '}
-                  <PreviewCompatibleImage alt="social image thumbnail" src={image} />{' '}
-                </a>
-              </div>
-            ))}
-          </div>
-        </section>
-      </div>
-      <section className="site-footer-meta">
-        <small className="legal">{copyright}</small>
+    <main>{children}</main>
+    <footer>
+      <section>
+        <blockquote>
+          <PreviewCompatibleImage alt="open quotation" src={quoteImage} />
+          <p>{testimonial}</p>
+          <p>
+            <b>{testimonialAttribution}</b>
+          </p>
+        </blockquote>
+      </section>
+      <section>
+        <a href={socialHeadingHref}>
+          {' '}
+          <PreviewCompatibleImage alt={socialHeadingImageAlt} src={socialHeadingImage} />{' '}
+        </a>{' '}
+        {socialImages.map(({ href, image }) => (
+          <a key={String(Math.random())} href={href}>
+            {' '}
+            <PreviewCompatibleImage alt="social image thumbnail" src={image} />{' '}
+          </a>
+        ))}
+      </section>
+      <section>
+        <p>
+          <small>{copyright}</small>
+        </p>
       </section>
     </footer>
   </>
 );
 
-const Layout = ({ children, withNav = false }) => {
+const Layout = ({ children, description = '', title = '', withNav = false }) => {
   const {
     markdownRemark: { frontmatter: data },
+    site: {
+      siteMetadata: { description: siteDescription, title: siteTitle },
+    },
   } = useStaticQuery(layoutQuery);
   return (
     <>
       <Helmet>
         <html lang="en" />
+        <title>{title ? `${title} | ${siteTitle}` : siteTitle}</title>
+        <meta name="description" content={description || siteDescription} />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -144,7 +133,13 @@ const Layout = ({ children, withNav = false }) => {
 };
 
 const layoutQuery = graphql`
-  query {
+  query layoutQuery {
+    site {
+      siteMetadata {
+        description
+        title
+      }
+    }
     markdownRemark(frontmatter: { title: { eq: "Layout" } }) {
       frontmatter {
         appleTouchIcon: logoImage {
@@ -198,7 +193,7 @@ const layoutQuery = graphql`
         logoImageAlt
         ogImage: logoImage {
           childImageSharp {
-            fixed(width: 1200, height: 627, quality: 100) {
+            fixed(width: 400, height: 400, quality: 100) {
               src
             }
           }
