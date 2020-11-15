@@ -6,8 +6,8 @@ import Layout from '../components/Layout';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 
 export const TeachersPageTemplate = ({ teachers, title }) => (
-  <>
-    <h1>{title}</h1>
+  <main className="main-content">
+    <h1 className="main-heading">{title}</h1>
     {teachers.map(({ teacherBio, teacherName, teacherImage }) => (
       <article key={teacherName}>
         <h1>{teacherName}</h1>
@@ -15,7 +15,7 @@ export const TeachersPageTemplate = ({ teachers, title }) => (
         <ReactMarkdown>{teacherBio}</ReactMarkdown>
       </article>
     ))}
-  </>
+  </main>
 );
 
 const TeachersPage = ({

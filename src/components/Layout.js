@@ -51,7 +51,7 @@ export const LayoutTemplate = ({
         </ul>
       </nav>
     )}
-    <main>{children}</main>
+    {children}
     <footer>
       <section>
         <blockquote>
