@@ -24,13 +24,19 @@ export const LayoutTemplate = ({
   withNav = false,
 }) => (
   <>
-    <header>
-      <PreviewCompatibleImage alt="background image" src={backgroundImage} />{' '}
-      <Link to="/">
-        {' '}
-        <PreviewCompatibleImage alt={logoImageAlt} src={logoImage} />{' '}
-      </Link>{' '}
-      <PreviewCompatibleImage alt={headingImageAlt} src={headingImage} />
+    <header className="site-header">
+      <div className="site-header-background">
+        <PreviewCompatibleImage alt="background image" src={backgroundImage} />{' '}
+      </div>
+      <div className="site-header-branding">
+        <Link to="/">
+          {' '}
+          <PreviewCompatibleImage alt={logoImageAlt} src={logoImage} />{' '}
+        </Link>{' '}
+      </div>
+      <div className="site-header-heading">
+        <PreviewCompatibleImage alt={headingImageAlt} src={headingImage} />
+      </div>
     </header>
     {withNav && (
       <nav>
