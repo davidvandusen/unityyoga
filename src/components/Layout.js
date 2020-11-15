@@ -178,7 +178,7 @@ const layoutQuery = graphql`
         backgroundImage {
           childImageSharp {
             fixed(width: 1366, quality: 100) {
-              ...GatsbyImageSharpFixed_withWebp
+              ...GatsbyImageSharpFixed_withWebp_noBase64
             }
           }
         }
