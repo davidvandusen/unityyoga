@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 import { graphql } from 'gatsby';
 
 export const SchedulePageTemplate = ({ title }) => (
-  <main className="main-content wide">
+  <main className="main-content wide schedule-page">
     <h1 className="main-heading">{title}</h1>
     <div className="desktop-only">
       <iframe
@@ -16,7 +16,7 @@ export const SchedulePageTemplate = ({ title }) => (
       />
       <iframe
         frameBorder="0"
-        height="1400"
+        height="1200"
         src="https://app.punchpass.com/org/8932/calendar?embed=true"
         title="Unity Yoga PunchPass calendar"
         width="100%"

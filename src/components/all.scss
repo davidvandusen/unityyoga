@@ -43,7 +43,8 @@ small {
 
   &.wide {
     max-width: 1368px;
-    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   blockquote {
@@ -244,10 +245,6 @@ small {
   }
 }
 
-.site-footer {
-  margin: 40px 0 0;
-}
-
 .site-footer-content {
   display: flex;
   flex-direction: column;
@@ -334,6 +331,10 @@ small {
     margin: 0 0 1em 1em;
     width: 50%;
   }
+}
+
+.schedule-page {
+  padding-bottom: 80px;
 }
 
 .schedule-row {
