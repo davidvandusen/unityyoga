@@ -43,9 +43,6 @@ small {
 
   &.wide {
     max-width: 1368px;
-  }
-
-  &.no-padding {
     padding: 0;
   }
 
@@ -247,6 +244,10 @@ small {
   }
 }
 
+.site-footer {
+  margin: 40px 0 0;
+}
+
 .site-footer-content {
   display: flex;
   flex-direction: column;
@@ -333,4 +334,15 @@ small {
     margin: 0 0 1em 1em;
     width: 50%;
   }
+}
+
+.schedule-row {
+  @media (min-width: 768px) {
+    border: 1px solid #eee;
+    display: flex;
+  }
+}
+
+.schedule-column {
+  flex: 1;
 }

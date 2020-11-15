@@ -12,7 +12,7 @@ export const IndexPageTemplate = ({
   yogaBlurb,
   yogaImage,
 }) => (
-  <main className="main-content wide no-padding">
+  <main className="main-content wide">
     <ol className="services-list">
       <li className="services-item">
         <Link className="services-link" to="/schedule/">
