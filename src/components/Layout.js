@@ -34,11 +34,13 @@ export const LayoutTemplate = ({
     </header>
     {withNav && (
       <nav>
-        {links.map(({ linkText, linkPath }) => (
-          <Link key={JSON.stringify({ linkPath, linkText })} to={linkPath}>
-            {linkText}
-          </Link>
-        ))}
+        <ul>
+          {links.map(({ linkText, linkPath }) => (
+            <li key={JSON.stringify({ linkPath, linkText })}>
+              <Link to={linkPath}>{linkText}</Link>
+            </li>
+          ))}
+        </ul>
       </nav>
     )}
     <main>{children}</main>
