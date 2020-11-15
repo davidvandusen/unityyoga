@@ -50,31 +50,47 @@ export const LayoutTemplate = ({
           ))}
         </ul>
       </nav>
-    )}
+    )}{' '}
     {children}
-    <footer>
-      <section>
-        <blockquote>
-          <PreviewCompatibleImage alt="open quotation" src={quoteImage} />
-          <p>{testimonial}</p>
-          <p>
-            <b>{testimonialAttribution}</b>
-          </p>
-        </blockquote>
-      </section>
-      <section>
-        <a href={socialHeadingHref}>
-          {' '}
-          <PreviewCompatibleImage alt={socialHeadingImageAlt} src={socialHeadingImage} />{' '}
-        </a>{' '}
-        {socialImages.map(({ href, image }) => (
-          <a key={String(Math.random())} href={href}>
-            {' '}
-            <PreviewCompatibleImage alt="social image thumbnail" src={image} />{' '}
-          </a>
-        ))}
-      </section>
-      <section>
+    <footer className="site-footer">
+      <div className="site-footer-content">
+        <section className="site-footer-testimonial">
+          <blockquote className="site-footer-testimonial-blockquote">
+            <div className="site-footer-testimonial-image">
+              <PreviewCompatibleImage alt="open quotation" src={quoteImage} />
+            </div>
+            <p>{testimonial}</p>
+            <p>
+              <b>{testimonialAttribution}</b>
+            </p>
+          </blockquote>
+        </section>
+        <section className="site-footer-social">
+          <div className="site-footer-social-heading">
+            <a href={socialHeadingHref}>
+              {' '}
+              <PreviewCompatibleImage alt={socialHeadingImageAlt} src={socialHeadingImage} />{' '}
+            </a>
+          </div>
+          <ul className="site-footer-social-list">
+            {socialImages.map(({ href, image }, index) => (
+              <li
+                key={String(Math.random())}
+                className={`site-footer-social-item ${
+                  index + 1 === socialImages.length && 'mobile-only'
+                }`}
+              >
+                <a className="site-footer-social-link" href={href}>
+                  <div className="site-footer-social-image">
+                    <PreviewCompatibleImage alt="social image thumbnail" src={image} />
+                  </div>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      </div>
+      <section className="site-footer-meta">
         <p>
           <small>{copyright}</small>
         </p>
@@ -210,16 +226,16 @@ const layoutQuery = graphql`
         }
         quoteImage {
           childImageSharp {
-            fluid(maxWidth: 35, quality: 100) {
-              ...GatsbyImageSharpFluid_withWebp_noBase64
+            fixed(width: 34, quality: 100) {
+              ...GatsbyImageSharpFixed_withWebp_noBase64
             }
           }
         }
         socialHeadingHref
         socialHeadingImage {
           childImageSharp {
-            fluid(maxWidth: 242, quality: 100) {
-              ...GatsbyImageSharpFluid_withWebp_noBase64
+            fixed(width: 242, quality: 100) {
+              ...GatsbyImageSharpFixed_withWebp_noBase64
             }
           }
         }
