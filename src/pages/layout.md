@@ -7,18 +7,19 @@ headingImage: /img/yoga-tea-and-good-company.png
 headingImageAlt: Yoga, Tea & Good Company...
 links:
   - linkText: Home
-    linkPath: "/"
-  - linkText: Schedule and Passes
-    linkPath: "/schedule/"
-  - linkText: Intro to Yoga
-    linkPath: "/intro/"
+    linkPath: /
+  - linkText: Schedule
+    linkPath: /schedule/
+  - linkText: Vision
+    linkPath: /intro/
   - linkText: Teachers
-    linkPath: "/teachers/"
+    linkPath: /teachers/
 quoteImage: /img/quote.png
-testimonial: Sue helped me tremendously. She was patient and gracious and kind. I’d highly recommend her professional herbalist services.
+testimonial: Sue helped me tremendously. She was patient and gracious and kind.
+  I’d highly recommend her professional herbalist services.
 testimonialAttribution: S.B
 socialHeadingImage: /img/inharmonywithnature.png
-socialHeadingImageAlt: '#inharmonywithnature'
+socialHeadingImageAlt: "#inharmonywithnature"
 socialHeadingHref: https://www.instagram.com/explore/tags/inharmonywithnature/
 socialImages:
   - image: /img/susan-horning-unity-herbals.jpg
