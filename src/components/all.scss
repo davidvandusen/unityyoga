@@ -345,6 +345,46 @@ small {
   flex: 1;
 }
 
+.schedule-page {
+  overflow-y: hidden;
+
+  @media (min-width: 768px) {
+    overflow-y: auto;
+  }
+}
+
+.schedule-fixed-on-mobile {
+  background: #eee;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  top: 265px;
+  right: 0;
+  z-index: 1;
+
+  &::before {
+    align-items: center;
+    bottom: 0;
+    content: 'Loading schedule...';
+    display: flex;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+  }
+
+  iframe {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+  }
+}
+
 .landing-page {
   padding-bottom: 0;
 }

@@ -2,10 +2,19 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import { graphql } from 'gatsby';
+import { Helmet } from 'react-helmet';
 
-export const SchedulePageTemplate = ({ title }) => (
+export const SchedulePageTemplate = () => (
   <main className="main-content wide">
-    <h1 className="main-heading">{title}</h1>
+    <div className="mobile-only schedule-fixed-on-mobile">
+      <iframe
+        frameBorder="0"
+        height="100%"
+        src="https://app.punchpass.com/org/8932/classes?embed=true"
+        title="Unity Yoga PunchPass class list (mobile)"
+        width="100%"
+      />
+    </div>
     <div className="desktop-only">
       <iframe
         frameBorder="0"
@@ -21,25 +30,25 @@ export const SchedulePageTemplate = ({ title }) => (
         title="Unity Yoga PunchPass calendar"
         width="100%"
       />
-    </div>
-    <div className="schedule-row">
-      <div className="schedule-column">
-        <iframe
-          frameBorder="0"
-          height="860"
-          src="https://app.punchpass.com/org/8932/passes?embed=true"
-          title="Unity Yoga buy PunchPass passes"
-          width="100%"
-        />
-      </div>
-      <div className="schedule-column">
-        <iframe
-          frameBorder="0"
-          height="860"
-          src="https://app.punchpass.com/org/8932/classes?embed=true"
-          title="Unity Yoga PunchPass class list"
-          width="100%"
-        />
+      <div className="schedule-row">
+        <div className="schedule-column desktop-only">
+          <iframe
+            frameBorder="0"
+            height="860"
+            src="https://app.punchpass.com/org/8932/passes?embed=true"
+            title="Unity Yoga buy PunchPass passes"
+            width="100%"
+          />
+        </div>
+        <div className="schedule-column">
+          <iframe
+            frameBorder="0"
+            height="860"
+            src="https://app.punchpass.com/org/8932/classes?embed=true"
+            title="Unity Yoga PunchPass class list"
+            width="100%"
+          />
+        </div>
       </div>
     </div>
   </main>
@@ -53,7 +62,9 @@ const SchedulePage = ({
 }) => {
   return (
     <Layout description={description} title={title} withNav>
-      {' '}
+      <Helmet>
+        <body className="schedule-page" />
+      </Helmet>
       <SchedulePageTemplate title={title} />{' '}
     </Layout>
   );
