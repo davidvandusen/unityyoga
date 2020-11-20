@@ -6,7 +6,9 @@ import Layout from '../components/Layout';
 export const MarkdownPageTemplate = ({ content, html, title }) => (
   <main className="main-content">
     <h1 className="main-heading">{title}</h1>
-    {html ? <div dangerouslySetInnerHTML={{ __html: html }} /> : content}
+    <div className="markdown-content">
+      {html ? <div dangerouslySetInnerHTML={{ __html: html }} /> : content}
+    </div>
   </main>
 );
 

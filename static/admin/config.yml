@@ -78,7 +78,7 @@ collections:
             name: copyright
             widget: string
   - name: customPages
-    label: Custom Pages
+    label: Custom Page
     files:
       - file: src/data/customPages/index.md
         label: Landing Page
@@ -166,7 +166,7 @@ collections:
                 name: teacherImage
                 widget: image
   - name: basicPages
-    label: Basic Pages
+    label: Basic Page
     folder: src/data/basicPages
     create: true
     fields:
@@ -174,7 +174,7 @@ collections:
         name: templateKey
         widget: hidden
         default: MarkdownPage
-      - label: Path
+      - label: Path (The part after the domain in the URL)
         name: path
         widget: string
       - label: Title

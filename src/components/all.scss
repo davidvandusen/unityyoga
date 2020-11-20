@@ -51,6 +51,7 @@ small {
     box-sizing: border-box;
     border-left: 6px solid #eee;
     font-style: italic;
+    margin-left: 0;
     padding-left: 18px;
   }
 
@@ -387,4 +388,10 @@ small {
 
 .landing-page {
   padding-bottom: 0;
+}
+
+.markdown-content {
+  img {
+    margin: 2em 0;
+  }
 }
