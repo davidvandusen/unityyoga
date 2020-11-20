@@ -16,8 +16,8 @@ const LayoutPreview = ({ entry }) => {
     socialHeadingImage,
     socialHeadingImageAlt,
     socialImages,
-    testimonial,
-    testimonialAttribution,
+    quote,
+    quoteAttribution,
   } = entry.getIn(['data']).toJS();
   return (
     <LayoutTemplate
@@ -33,8 +33,8 @@ const LayoutPreview = ({ entry }) => {
       socialHeadingImage={socialHeadingImage}
       socialHeadingImageAlt={socialHeadingImageAlt}
       socialImages={socialImages}
-      testimonial={testimonial}
-      testimonialAttribution={testimonialAttribution}
+      quote={quote}
+      quoteAttribution={quoteAttribution}
       withNav
     />
   );

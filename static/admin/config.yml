@@ -10,10 +10,10 @@ backend:
 media_folder: static/img
 public_folder: /img
 collections:
-  - name: pages
-    label: Pages
+  - name: layout
+    label: Layout
     files:
-      - file: src/pages/layout.md
+      - file: src/data/layout.md
         label: Layout
         name: layout
         fields:
@@ -46,14 +46,14 @@ collections:
               - label: Link Path
                 name: linkPath
                 widget: string
-          - label: Footer Testimonial Quote Image
+          - label: Footer Quote Image
             name: quoteImage
             widget: image
-          - label: Footer Testimonial
-            name: testimonial
+          - label: Footer Quote
+            name: quote
             widget: text
-          - label: Footer Testimonial Attribution
-            name: testimonialAttribution
+          - label: Footer Quote Attribution
+            name: quoteAttribution
             widget: string
           - label: Footer Social Heading
             name: socialHeadingImage
@@ -77,7 +77,10 @@ collections:
           - label: Copyright
             name: copyright
             widget: string
-      - file: src/pages/index.md
+  - name: customPages
+    label: Custom Pages
+    files:
+      - file: src/data/customPages/index.md
         label: Landing Page
         name: index
         fields:
@@ -85,6 +88,10 @@ collections:
             name: templateKey
             widget: hidden
             default: IndexPage
+          - label: Path
+            name: path
+            widget: hidden
+            default: /
           - label: Title
             name: title
             widget: string
@@ -109,7 +116,7 @@ collections:
           - label: Good Company Blurb
             name: goodCompanyBlurb
             widget: text
-      - file: src/pages/schedule.md
+      - file: src/data/customPages/schedule.md
         label: Schedule
         name: schedule
         fields:
@@ -117,30 +124,17 @@ collections:
             name: templateKey
             widget: hidden
             default: SchedulePage
-          - label: Title
-            name: title
-            widget: string
-          - label: Search Engine Description
-            name: description
-            widget: text
-      - file: src/pages/intro.md
-        label: Intro
-        name: intro
-        fields:
-          - label: Template Key
-            name: templateKey
+          - label: Path
+            name: path
             widget: hidden
-            default: MarkdownPage
+            default: schedule
           - label: Title
             name: title
             widget: string
           - label: Search Engine Description
             name: description
             widget: text
-          - label: Body
-            name: body
-            widget: markdown
-      - file: src/pages/teachers.md
+      - file: src/data/customPages/teachers.md
         label: Teachers
         name: teachers
         fields:
@@ -148,6 +142,10 @@ collections:
             name: templateKey
             widget: hidden
             default: TeachersPage
+          - label: Path
+            name: path
+            widget: hidden
+            default: teachers
           - label: Title
             name: title
             widget: string
@@ -167,3 +165,24 @@ collections:
               - label: Photo
                 name: teacherImage
                 widget: image
+  - name: basicPages
+    label: Basic Pages
+    folder: src/data/basicPages
+    create: true
+    fields:
+      - label: Template Key
+        name: templateKey
+        widget: hidden
+        default: MarkdownPage
+      - label: Path
+        name: path
+        widget: string
+      - label: Title
+        name: title
+        widget: string
+      - label: Search Engine Description
+        name: description
+        widget: text
+      - label: Body
+        name: body
+        widget: markdown

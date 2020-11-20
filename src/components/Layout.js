@@ -19,8 +19,8 @@ export const LayoutTemplate = ({
   socialHeadingImage,
   socialHeadingImageAlt,
   socialImages,
-  testimonial,
-  testimonialAttribution,
+  quote,
+  quoteAttribution,
   withNav = false,
 }) => (
   <>
@@ -54,14 +54,14 @@ export const LayoutTemplate = ({
     {children}
     <footer className="site-footer">
       <div className="site-footer-content">
-        <section className="site-footer-testimonial">
-          <blockquote className="site-footer-testimonial-blockquote">
-            <div className="site-footer-testimonial-image">
+        <section className="site-footer-quote">
+          <blockquote className="site-footer-quote-blockquote">
+            <div className="site-footer-quote-image">
               <PreviewCompatibleImage alt="open quotation" src={quoteImage} />
             </div>
-            <p>{testimonial}</p>
+            <p>{quote}</p>
             <p>
-              <b>{testimonialAttribution}</b>
+              <b>{quoteAttribution}</b>
             </p>
           </blockquote>
         </section>
@@ -148,8 +148,8 @@ const Layout = ({ children, description = '', title = '', withNav = false }) => 
         socialHeadingImage={data.socialHeadingImage}
         socialHeadingImageAlt={data.socialHeadingImageAlt}
         socialImages={data.socialImages}
-        testimonial={data.testimonial}
-        testimonialAttribution={data.testimonialAttribution}
+        quote={data.quote}
+        quoteAttribution={data.quoteAttribution}
         withNav={withNav}
       >
         {children}
@@ -250,8 +250,8 @@ const layoutQuery = graphql`
             }
           }
         }
-        testimonial
-        testimonialAttribution
+        quote
+        quoteAttribution
       }
     }
   }

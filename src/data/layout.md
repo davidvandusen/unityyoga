@@ -11,13 +11,13 @@ links:
   - linkText: Schedule
     linkPath: /schedule/
   - linkText: Vision
-    linkPath: /intro/
+    linkPath: /vision/
   - linkText: Teachers
     linkPath: /teachers/
 quoteImage: /img/quote.png
-testimonial: Sue helped me tremendously. She was patient and gracious and kind.
+quote: Sue helped me tremendously. She was patient and gracious and kind.
   I’d highly recommend her professional herbalist services.
-testimonialAttribution: S.B
+quoteAttribution: S.B
 socialHeadingImage: /img/inharmonywithnature.png
 socialHeadingImageAlt: "#inharmonywithnature"
 socialHeadingHref: https://www.instagram.com/explore/tags/inharmonywithnature/

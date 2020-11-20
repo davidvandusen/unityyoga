@@ -1,6 +1,7 @@
 ---
 templateKey: MarkdownPage
-title: Intro to Yoga and FAQ
+path: vision
+title: Vision
 description: An introduction to yoga and chakras
 ---
 Yoga has been practiced for generations as a form of therapy for body, mind and spirit. It is a life enhancing and wellness-promoting form of exercise that not only tones the body, but also relieves the mind and spirit of the pressures of daily life. Many people practice yoga for the physical benefits, but over time notice the effect of yoga penetrates all areas of their life.

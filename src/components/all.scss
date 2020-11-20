@@ -253,7 +253,7 @@ small {
   margin: 0 auto;
   max-width: 1368px;
 
-  .site-footer-testimonial {
+  .site-footer-quote {
     flex-basis: 33.3333%;
     min-width: 33.3333%;
   }
@@ -268,7 +268,7 @@ small {
   }
 }
 
-.site-footer-testimonial-blockquote {
+.site-footer-quote-blockquote {
   border-top: 3px solid $brandColor;
   font-size: 16px;
   line-height: 1.3125;
@@ -282,7 +282,7 @@ small {
   }
 }
 
-.site-footer-testimonial-image {
+.site-footer-quote-image {
   background: white;
   box-sizing: content-box;
   left: 50%;

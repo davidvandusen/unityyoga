@@ -1,5 +1,6 @@
 ---
 templateKey: IndexPage
+path: /
 title: Yoga, Tea & Good Company...
 description: Formerly Unity Yoga Teahouse — Vancouver Yoga Studio
 yogaImage: /img/yoga.jpg

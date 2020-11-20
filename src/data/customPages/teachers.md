@@ -1,5 +1,6 @@
 ---
 templateKey: TeachersPage
+path: teachers
 title: Teachers
 description: Teachers at Unity Yoga
 teachers:
