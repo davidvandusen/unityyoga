@@ -12,8 +12,8 @@ links:
     linkPath: /schedule/
   - linkText: Vision
     linkPath: /vision/
-  - linkText: Teachers
-    linkPath: /teachers/
+  - linkText: Team
+    linkPath: /team/
 quoteImage: /img/quote.png
 quote: Healing, is not a science, but an intuitive art of wooing nature”
 quoteAttribution: " - W. H. Auden"
