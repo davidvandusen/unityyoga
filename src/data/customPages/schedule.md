@@ -1,6 +1,6 @@
 ---
 templateKey: SchedulePage
 path: schedule
-title: Class Schedule and Passes
+title: Schedule
 description: Yoga class schedule powered by PunchPass
 ---
