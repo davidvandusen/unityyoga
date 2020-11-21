@@ -15,9 +15,8 @@ links:
   - linkText: Teachers
     linkPath: /teachers/
 quoteImage: /img/quote.png
-quote: Sue helped me tremendously. She was patient and gracious and kind. I’d
-  highly recommend her professional herbalist services.
-quoteAttribution: S.B
+quote: Healing, is not a science, but an intuitive art of wooing nature”
+quoteAttribution: " - W. H. Auden"
 socialHeadingImage: /img/inharmonywithnature.png
 socialHeadingImageAlt: "#inharmonywithnature"
 socialHeadingHref: https://www.instagram.com/explore/tags/inharmonywithnature/
