@@ -1,12 +1,18 @@
 ---
 templateKey: IndexPage
 path: /
-title: Yoga, Tea & Good Company...
+title: Yoga, Tea, and Good Company
 description: Formerly Unity Yoga Teahouse — Vancouver Yoga Studio
 yogaImage: /img/yoga.jpg
-yogaBlurb: Susan Horning teaches yoga privately and in group classes, view the schedule often for new offerings.
+yogaBlurb: Join us for outdoor classes, Zoom online yoga, or in-person classes
+  in East Vancouver.  We offer a variety of class styles led by experienced
+  instructors.
 teaImage: /img/tea.jpg
-teaBlurb: As a certified herbalist, Susan offers one-on-one sessions to address your needs. She also makes tinctures and delicious teas.
+teaBlurb: Discover the way of tea!   Organic herbal tisanes, teas, and tinctures
+  are made purely with plants.  Enhance your health and wellbeing with
+  nourishment directly from nature.
 goodCompanyImage: /img/good-company.jpg
-goodCompanyBlurb: Join Unity Retreats on a yoga retreat to relax, unwind and learn, whether it’s Salt Spring Island or Guatemala, your next adventure awaits!
+goodCompanyBlurb: Community connections create a matrix of support that enhance
+  the joy of life.  Join us on our next retreat and connect with others in the
+  spirit of yoga.
 ---
