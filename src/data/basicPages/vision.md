@@ -2,7 +2,7 @@
 templateKey: MarkdownPage
 path: vision
 title: Vision
-description: Be part of the solution
+description: Be part of the solution with a shared vision
 ---
 Yoga has been practiced for generations as a form of therapy for body, mind and spirit. It is a life enhancing and wellness-promoting form of exercise that not only tones the body, but also relieves the mind and spirit of the pressures of daily life. Many people practice yoga for the physical benefits, but over time notice the effect of yoga penetrates all areas of their life.
 
@@ -79,5 +79,9 @@ A wealth of information and knowledge is available in books, from teachers, and 
 **Hatha Yoga Pradipika, circa 15th Century**:  The most recent historical text on yoga. This book lists in great detail all the main asana (postures), pranayama (breathing techniques), mudra (symbolic hand gestures), and bandha (subtle energy locks) that we practice today. “Pradipika” translates as a lantern, “shedding light” on the subject of Hatha yoga. 
 
 > *Slimness of body, luster on the face, clarity of voice, brightness of eyes, freedom from disease, control over sex, stimulation of gastric fire, and purification of the Nadis’s (meridian lines) are the characteristics of success in Hatha Yoga.*
+>
+> ![]()
+>
+> ![]()
 >
 > ~Hatha Yoga Pradipika
