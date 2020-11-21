@@ -15,15 +15,15 @@ links:
   - linkText: Teachers
     linkPath: /teachers/
 quoteImage: /img/quote.png
-quote: Sue helped me tremendously. She was patient and gracious and kind.
-  I’d highly recommend her professional herbalist services.
+quote: Sue helped me tremendously. She was patient and gracious and kind. I’d
+  highly recommend her professional herbalist services.
 quoteAttribution: S.B
 socialHeadingImage: /img/inharmonywithnature.png
 socialHeadingImageAlt: "#inharmonywithnature"
 socialHeadingHref: https://www.instagram.com/explore/tags/inharmonywithnature/
 socialImages:
-  - image: /img/susan-horning-unity-herbals.jpg
-    href: https://www.instagram.com/unitysue/
+  - image: /img/phone-a-friend.jpg
+    href: https://www.instagram.com/p/CHWLOIdhJIX/
   - image: /img/susan-horning-unity-herbals.jpg
     href: https://www.instagram.com/unitysue/
   - image: /img/susan-horning-unity-herbals.jpg
