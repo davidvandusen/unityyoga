@@ -29,8 +29,8 @@ socialImages:
     href: https://www.instagram.com/unitysue/
   - image: /img/d8de9903-0055-4106-b575-f0a4b68565a8_1_201_a.jpeg
     href: https://www.facebook.com/unitypartnermassage
-  - image: /img/susan-horning-unity-herbals.jpg
-    href: https://www.instagram.com/unitysue/
+  - image: /img/aaa9effe-0f61-46ce-bcf4-8f8d64da4b78.jpeg
+    href: https://www.instagram.com/unityrestreats/
   - image: /img/susan-horning-unity-herbals.jpg
     href: https://www.instagram.com/unitysue/
 copyright: © 2020 Unity Yoga
