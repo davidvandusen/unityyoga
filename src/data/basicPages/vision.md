@@ -8,7 +8,7 @@ Yoga has been practiced for generations as a form of therapy for body, mind and 
 
 The term “yoga” translates from the Sanskrit word “yuj” meaning to join, connect, or unify. As a bridle reins in horses in a carriage, yoga is a tool for the mind to cultivate control and purposeful action in the body.  Fluid steady and calm breath, sometimes referred to as 'prana' or life force energy, anchors and enhances this union.  Energy flows through the body with complete fluidity and ease when the body and mind are working as one.
 
-![](/img/unity-mandala.jpg "Unity Mandala")
+![Unity Mandala](/img/unity-mandala.jpg "Unity Mandala")
 
 Through yoga, we recognize the interconnectedness of all beings.  We aim to relate to one another with friendliness, tolerance and compassion.   Through the practice of yoga, we work to establish peace within ourselves and peace for all beings.   It is through establishing this connection with ourselves that we self-realize and connect to the understanding of eternal grace, that which is greater than ourselves - the universal whole. 
 
@@ -81,11 +81,5 @@ A wealth of information and knowledge is available in books, from teachers, and 
 **Hatha Yoga Pradipika, circa 15th Century**:  The most recent historical text on yoga. This book lists in great detail all the main asana (postures), pranayama (breathing techniques), mudra (symbolic hand gestures), and bandha (subtle energy locks) that we practice today. “Pradipika” translates as a lantern, “shedding light” on the subject of Hatha yoga. 
 
 > *Slimness of body, luster on the face, clarity of voice, brightness of eyes, freedom from disease, control over sex, stimulation of gastric fire, and purification of the Nadis’s (meridian lines) are the characteristics of success in Hatha Yoga.*
->
-> ![]()
->
-> ![]()
->
-> ![]()
 >
 > ~Hatha Yoga Pradipika

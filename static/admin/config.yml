@@ -126,44 +126,42 @@ collections:
             default: SchedulePage
           - label: Path
             name: path
-            widget: hidden
-            default: schedule
+            widget: string
           - label: Title
             name: title
             widget: string
           - label: Search Engine Description
             name: description
             widget: text
-      - file: src/data/customPages/teachers.md
-        label: Teachers
-        name: teachers
+      - file: src/data/customPages/team.md
+        label: Team
+        name: team
         fields:
           - label: Template Key
             name: templateKey
             widget: hidden
-            default: TeachersPage
+            default: TeamPage
           - label: Path
             name: path
-            widget: hidden
-            default: teachers
+            widget: string
           - label: Title
             name: title
             widget: string
           - label: Search Engine Description
             name: description
             widget: text
-          - label: Teachers
-            name: teachers
+          - label: Members
+            name: members
             widget: list
             fields:
               - label: Name
-                name: teacherName
+                name: memberName
                 widget: string
               - label: Bio
-                name: teacherBio
+                name: memberBio
                 widget: markdown
               - label: Photo
-                name: teacherImage
+                name: memberImage
                 widget: image
   - name: basicPages
     label: Basic Page

@@ -1,12 +1,12 @@
 ---
-templateKey: TeachersPage
-path: teachers
+templateKey: TeamPage
+path: team
 title: Team
 description: Facilitators at Unity Yoga
-teachers:
-  - teacherName: Susan Horning
-    teacherImage: /img/susan-horning.jpg
-    teacherBio: >
+members:
+  - memberName: Susan Horning
+    memberImage: /img/susan-horning.jpg
+    memberBio: >
       Susan is devoted to her daily practice and has been teaching public
       classes full time for over a decade in her own studio, in corporate
       environments, and art and music festivals.  As a socially conscious
@@ -18,9 +18,9 @@ teachers:
 
 
       In addition to her public classes, Susan facilitates group retreats to Salt Spring Island and various locations around the world ([unityretreats.ca](http://unityretreats.ca/)), is a practicing Clinical Herbalist ([unityherbals.ca](http://unityherbals.ca/)) and has a special interest in the esoteric, offering consultations in Four Pillars Astrology (Bazi), Tarot, I-Ching and Flying Star Feng Shui. ([QuanYin.ca](http://quanyin.ca/))
-  - teacherName: Nicola Bennett
-    teacherImage: /img/nicola-bennett.jpg
-    teacherBio: >
+  - memberName: Nicola Bennett
+    memberImage: /img/nicola-bennett.jpg
+    memberBio: >
       Nicola is a yoga teacher and Naturopathic Doctor living and thriving in
       East Vancouver’s artistically rich Commercial Drive neighbourhood. She was
       introduced to yoga by her gymnastics coach at age 16, where she instantly
@@ -36,9 +36,9 @@ teachers:
 
 
       With a gentile supportive voice, Dr. Bennett combines her knowledge as a naturopathic doctor with her experience as a yoga teacher and long-term practitioner to create a truly unique experience in her classes.
-  - teacherName: Anita Callahan
-    teacherImage: /img/anita-callahan.jpg
-    teacherBio: >
+  - memberName: Anita Callahan
+    memberImage: /img/anita-callahan.jpg
+    memberBio: >
       When I was young, I loved dancing and making up my own stretches. At the
       time, I had no idea there was a name for what I was doing. One day I
       stumbled across a classic yoga book of my Uncles and flipped through the
@@ -51,9 +51,9 @@ teachers:
 
 
       When you come to my class, you will experience a strong foundation of alignment, but I hope you sweat and laugh and enjoy some freedom too. I will remind you to breathe, and breathe deeply. I enjoy exploring poses and flowing movement. I am truly a guide to help move you through a sequence and I hope the end result will be that we all find a little more clarity for our everyday lives, because that is when you know yoga is at work. Anita is a ceritified RYT-500, having comleted her 200hr training in 2013 with Y-Yoga, and her 300hr advanced training with Christine Price Clark at the Vancouver School of Yoga and Massage in 2014.
-  - teacherName: Jenn Suvajac
-    teacherImage: /img/jenn-suvajac.jpg
-    teacherBio: >
+  - memberName: Jenn Suvajac
+    memberImage: /img/jenn-suvajac.jpg
+    memberBio: >
       After traveling and living abroad for the past few years, Jenn is happy to
       bring her yoga teaching back to Vancouver. Jenn’s profound interest in
       body awareness, movement and mindfulness has led her to study under
@@ -68,9 +68,9 @@ teachers:
       transformative practice of yoga. Jenn’s compassionate and attentive style
       make her perfect for new and advanced students looking to deepen their
       yogic path.
-  - teacherName: Niki Inglis
-    teacherImage: /img/niki-inglis.jpg
-    teacherBio: >
+  - memberName: Niki Inglis
+    memberImage: /img/niki-inglis.jpg
+    memberBio: >
       Diagnosed at age 29 with life-threatening asthma and debilitating
       arthritis, Niki took her first yoga class at a neighbourhood community
       center. Fully healed in a short time by the practice, she has devoted the
@@ -84,9 +84,9 @@ teachers:
 
 
       Her deepest influence is Vijnana Yoga - a gentle but strong, inwardly-focused practice - and she strives to bring its sense of presence and peace to all of her classes. Niki encourages questions, community and connection above all else and gratitude towards her teachers, students included, guides her every move.
-  - teacherName: Claire Hurley
-    teacherImage: /img/claire-hurley.jpg
-    teacherBio: >
+  - memberName: Claire Hurley
+    memberImage: /img/claire-hurley.jpg
+    memberBio: >
       Claire’s love for yoga began to unfold in university whilst studying for
       her experimental physics degree. Continuing her asana practice during her
       many years as a high school teacher, it was her background in science that
