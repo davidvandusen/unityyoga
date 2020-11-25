@@ -4,7 +4,7 @@ backgroundImage: /img/header.png
 logoImage: /img/unity.png
 logoImageAlt: Unity
 headingImage: /img/yoga-tea-and-good-company.png
-headingImageAlt: Yoga, Tea & Good Company...
+headingImageAlt: Yoga, Tea & Good Company
 links:
   - linkText: Home
     linkPath: /

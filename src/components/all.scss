@@ -105,19 +105,25 @@ small {
 .site-header-branding {
   margin: 0 auto;
   position: relative;
-  width: 100px;
+  width: 133px;
   z-index: 2;
 }
 
 .site-header-heading {
+  display: none;
   margin: 21px auto 0;
   position: relative;
   width: 250px;
   z-index: 2;
 
+  .index-page & {
+    display: block;
+  }
+
   @media (min-width: 768px) {
+    display: block;
     margin: 15px auto 0;
-    width: 394px;
+    width: 350px;
   }
 }
 
@@ -359,7 +365,7 @@ small {
   bottom: 0;
   left: 0;
   position: fixed;
-  top: 265px;
+  top: 236px;
   right: 0;
   z-index: 1;
 

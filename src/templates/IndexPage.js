@@ -3,6 +3,7 @@ import { graphql, Link } from 'gatsby';
 import React from 'react';
 import Layout from '../components/Layout';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
+import { Helmet } from 'react-helmet';
 
 export const IndexPageTemplate = ({
   goodCompanyBlurb,
@@ -63,6 +64,9 @@ const IndexPage = ({
 }) => (
   <Layout description={description} title={title}>
     {' '}
+    <Helmet>
+      <body className="index-page" />
+    </Helmet>{' '}
     <IndexPageTemplate
       goodCompanyBlurb={goodCompanyBlurb}
       goodCompanyImage={goodCompanyImage}

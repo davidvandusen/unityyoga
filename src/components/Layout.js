@@ -199,7 +199,7 @@ const layoutQuery = graphql`
         }
         headingImage {
           childImageSharp {
-            fluid(maxWidth: 394, quality: 100) {
+            fluid(maxWidth: 350, quality: 100) {
               ...GatsbyImageSharpFluid_withWebp_noBase64
             }
           }
@@ -211,7 +211,7 @@ const layoutQuery = graphql`
         }
         logoImage {
           childImageSharp {
-            fixed(width: 100, quality: 100) {
+            fixed(width: 133, quality: 100) {
               ...GatsbyImageSharpFixed_withWebp_noBase64
             }
           }
