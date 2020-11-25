@@ -331,6 +331,29 @@ small {
   }
 }
 
+.site-footer-social-link {
+  color: $brandColor;
+  text-decoration: none;
+}
+
+.site-footer-social-caption {
+  align-items: flex-start;
+  display: flex;
+  font-size: 13px;
+  justify-content: flex-start;
+  line-height: 1;
+  padding: 5px 0;
+  word-break: break-word;
+  word-spacing: -3px;
+}
+
+.site-footer-social-logo {
+  fill: $brandColor;
+  flex-basis: 15px;
+  margin-right: 5px;
+  min-width: 15px;
+}
+
 .member-image {
   margin: 1em 0;
 
