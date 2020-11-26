@@ -33,17 +33,13 @@ socialImages:
     href: https://www.instagram.com/unityretreats/
     text: unity retreats
     logo: Instagram
-  - image: /img/susan-horning-unity-herbals.jpg
-    href: https://www.instagram.com/unityherbals/
-    text: unity herbals
-    logo: Instagram
   - image: /img/e9b84921-e17f-4005-b4ba-9e2373b31258.jpeg
     href: https://www.instagram.com/unitysue/
     text: unity sue
     logo: Instagram
-  - image: /img/a73ba4aa-d341-4f19-b9b7-8f31eab77c13_1_201_a.jpeg
-    href: https://www.instagram.com/unitysue/
-    text: unity sue
+  - image: /img/susan-horning-unity-herbals.jpg
+    href: https://www.instagram.com/unityherbals/
+    text: unity herbals
     logo: Instagram
 copyright: © 2020 Unity Yoga
 ---
