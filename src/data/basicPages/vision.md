@@ -84,13 +84,17 @@ Many, many books have followed...
 
 **V.  Pratyahara**: The inward journey away from the external senses into the discovery of the true self and its relationship to the conscious world.  Detachment from the stories and the recognition of imperfection and inherent perfectness.
 
-**VI.  Dharana**: The concentration of the mind through meditation and the ability for the mind to focus on only one thing at a time.
+**VI.  Dharana**: The concentration of the mind through meditation and the ability for the mind to focus on only one thing at a time.  Steady and unmoving attentiveness.
 
-**VII.  Dhyana**: Deep meditation where the self and the object become one. A smooth flow of concentration softens the whole body into space with full awareness.
+**VII.  Dhyana**: Deep meditation where the self and the object become one. A smooth flow of concentration softens the whole body into space with full awareness.  I am not this body.
 
-**VIII.  Samadhi**: Bliss or oneness with the Divine, the highest stage of spiritual development. The state of self-realization and pure awareness.
+**VIII.  Samadhi**: Bliss or oneness with the Divine, the highest stage of spiritual development. The state of self-realization and pure awareness that allows for a unity state of consciousness that is held in permanent attention.  The final limb is the attainment of the yogi on the path toward enlightenment, and may only be a fleeting moment of passing wholeness.
 
-**Hatha Yoga Pradipika, circa 15th Century**:  The most recent historical text on yoga. This book lists in great detail all the main asana (postures), pranayama (breathing techniques), mudra (symbolic hand gestures), and bandha (subtle energy locks) that we practice today. “Pradipika” translates as a lantern, “shedding light” on the subject of Hatha yoga. 
+
+
+**Hatha Yoga Pradipika, circa 15th Century**:  The most recent historical text on yoga, and the bridge to all yoga books that have followed.  This Pradipika lists in great detail all the main asana (postures), pranayama (breathing techniques), mudra (symbolic hand gestures), and bandha (subtle energy locks) that we practice today. 
+
+“Pradipika” translates as a lantern, “shedding light” on the subject of Hatha yoga. 
 
 > *Slimness of body, luster on the face, clarity of voice, brightness of eyes, freedom from disease, control over sex, stimulation of gastric fire, and purification of the Nadis’s (meridian lines) are the characteristics of success in Hatha Yoga.*
 >
