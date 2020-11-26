@@ -22,9 +22,9 @@ socialHeadingImageAlt: "#inharmonywithnature"
 socialHeadingHref: https://www.instagram.com/explore/tags/inharmonywithnature/
 socialImages:
   - image: /img/phone-a-friend.jpg
-    href: https://www.instagram.com/unityyogavancouver/
+    href: https://www.facebook.com/unityyogavancouver/
     text: unity yoga vancouver
-    logo: Instagram
+    logo: Facebook
   - image: /img/susan-horning-unity-herbals.jpg
     href: https://www.instagram.com/unityherbals/
     text: unity herbals
