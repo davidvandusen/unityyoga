@@ -41,5 +41,9 @@ socialImages:
     href: https://www.instagram.com/unityherbals/
     text: unity herbals
     logo: Instagram
+  - image: /img/21c7ba1b-dcfe-4087-a394-771c60e707b3_1_105_c.jpeg
+    href: https://www.instagram.com/unityherbals/
+    text: unityherbals
+    logo: Instagram
 copyright: © 2020 Unity Yoga
 ---
