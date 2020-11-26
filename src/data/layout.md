@@ -30,17 +30,17 @@ socialImages:
     text: unity partner massage
     logo: Facebook
   - image: /img/aaa9effe-0f61-46ce-bcf4-8f8d64da4b78.jpeg
-    href: https://www.instagram.com/unityretreats/
+    href: https://www.facebook.com/unityretreats/
     text: unity retreats
-    logo: Instagram
+    logo: Facebook
   - image: /img/e9b84921-e17f-4005-b4ba-9e2373b31258.jpeg
-    href: https://www.instagram.com/unitysue/
-    text: unity sue
+    href: https://www.instagram.com/unityretreats/
+    text: unityretreats
     logo: Instagram
   - image: /img/susan-horning-unity-herbals.jpg
-    href: https://www.instagram.com/unityherbals/
-    text: unity herbals
-    logo: Instagram
+    href: https://www.facebook.com/unityherbals/
+    text: unityherbals
+    logo: Facebook
   - image: /img/21c7ba1b-dcfe-4087-a394-771c60e707b3_1_105_c.jpeg
     href: https://www.instagram.com/unityherbals/
     text: unityherbals
