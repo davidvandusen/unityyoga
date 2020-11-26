@@ -32,7 +32,7 @@ socialImages:
   - image: /img/aaa9effe-0f61-46ce-bcf4-8f8d64da4b78.jpeg
     href: https://www.instagram.com/unityretreats/
     text: unity retreats
-    logo: Instagram
+    logo: Facebook
   - image: /img/susan-horning-unity-herbals.jpg
     href: https://www.instagram.com/unityherbals/
     text: unity herbals
