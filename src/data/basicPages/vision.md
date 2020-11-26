@@ -8,7 +8,7 @@ Yoga has been practiced for generations as a form of therapy for body, mind and 
 
 The term “yoga” translates from the Sanskrit word “yuj” meaning to join, connect, or unify. As a bridle reins in horses in a carriage, yoga is a tool for the mind to cultivate control and purposeful action in the body.  Fluid steady and calm breath, sometimes referred to as 'prana' or life force energy, anchors and enhances this union.  Energy flows through the body with complete fluidity and ease when the body and mind are working as one.
 
-![Unity Mandala](/img/fibonacci-sequence.jpg "Unity Mandala")
+![Unity Mandala](/img/unity-mandala.jpg "Unity Mandala")
 
 Through yoga, we recognize the interconnectedness of all beings.  We aim to relate to one another with friendliness, tolerance and compassion.   As a discipline, we aim to establish peace within ourselves and peace for all beings.   It is through this inward connection that we self-realize and connect to the understanding of eternal grace, that which is greater than ourselves - the universal whole. 
 
