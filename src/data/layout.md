@@ -35,15 +35,15 @@ socialImages:
     logo: Facebook
   - image: /img/e9b84921-e17f-4005-b4ba-9e2373b31258.jpeg
     href: https://www.instagram.com/unityretreats/
-    text: unityretreats
+    text: unity retreats
     logo: Instagram
   - image: /img/21c7ba1b-dcfe-4087-a394-771c60e707b3_1_105_c.jpeg
     href: https://www.instagram.com/unityherbals/
-    text: unityherbals
+    text: unity herbals
     logo: Instagram
   - image: /img/susan-horning-unity-herbals.jpg
     href: https://www.facebook.com/unityherbals/
-    text: unityherbals
+    text: unity herbals
     logo: Facebook
 copyright: © 2020 Unity Yoga
 ---
