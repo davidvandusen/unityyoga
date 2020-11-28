@@ -43,7 +43,7 @@ export const LayoutTemplate = ({
         <ul className="site-navigation-list">
           {links.map(({ linkText, linkPath }) => (
             <li key={JSON.stringify({ linkPath, linkText })} className="site-navigation-item">
-              <Link className="site-navigation-link" to={linkPath}>
+              <Link className="site-navigation-link" activeClassName="active" to={linkPath}>
                 {linkText}
               </Link>
             </li>

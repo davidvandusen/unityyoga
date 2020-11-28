@@ -156,7 +156,7 @@ small {
     background: lighten($brandColor, 10%);
   }
 
-  &[aria-current="page"] {
+  &.active {
     background: darken($brandColor, 10%);
   }
 
