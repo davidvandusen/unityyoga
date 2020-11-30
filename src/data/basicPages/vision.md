@@ -52,7 +52,7 @@ Many, many books have followed...
 
 **The Bhagavad-Gita, circa 400–100**: Also known as “The Divine Song”, is a set of verses from a traditional Vedic Epic, the Mahabharata. It details four paths of yoga, including Karma Yoga (actions and reactions), Jnana Yoga (intellectual knowledge), Bhakti Yoga (devotion to deities) and Raja Yoga (meditation practices).
 
-**Yoga Sutras of Patanjali, circa 200**: One of the most important and revered texts of yoga philosophy. This set of 195 verses or philosophical “threads” outlines a method including the concept of the eight limbs of practice, which are commonly referred to in the practice of yoga.  A brief outline of the eight limbs follows here:
+**Yoga Sutras of Patanjali, circa 200**: One of the most important and revered texts of yoga philosophy. This set of 195 verses or philosophical “threads” outlines a method including the concept of 'the eight limbs of practice', which are commonly referred to in the practice of yoga.  A brief outline of the eight limbs follows here:
 
 **I.  The Yamas**: The Yamas are a set of attitudes that concern our interactions with others and the environment. Originally “yama” meant bridle or rein, and these concepts were meant as guides to direct our progress, and were a primary teaching of ethical and moral code.
 
