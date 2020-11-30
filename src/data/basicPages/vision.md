@@ -10,13 +10,15 @@ The term “yoga” translates from the Sanskrit word “yuj” meaning to join,
 
 ![Unity Mandala](/img/unity-mandala.jpg "Unity Mandala")
 
+**Living with Higher Purpose** 
+
 Through yoga, we recognize the interconnectedness of all beings.  We aim to relate to one another with friendliness, tolerance and compassion.   As a discipline, we aim to establish peace within ourselves and peace for all beings.   It is through this inward connection that we self-realize and connect to the understanding of eternal grace, that which is greater than ourselves - the universal whole. 
 
-Separation can be seen all around us, and the duality of our everyday experience creates a harmony of balance, now, and through time.  Using the truth of the inner experience, we expand and broaden our depth of understanding of our own nature and that of our capacity to create.  It is this creative force that is spurred onward by a recognition of non-dual reality.   
+Separation can be seen all around us, and the duality of our everyday experience creates a harmony of balance, now, and through time.  Using the truth of the inner experience, we expand and broaden understanding of our true nature and that of our capacity to create, grow and change.  It is this creative force that is spurred onward by a recognition of non-dual reality and shows us the value of impermanence.
 
-By being prepared in each moment, accepting life as it it, we gain the flexibility of mind and body to weather any storm.  Without hesitation, we are clear in our firm actions, intentions and motivations to free ourselves from the ignorance of judgements, fear, and non-essential suffering.  
+By being prepared in each moment, accepting life as it it, we gain the flexibility of mind and body to weather any storm.  Without hesitation, we are clear in our actions, intentions and motivations to free ourselves from the ignorance of judgement, fear, and non-essential suffering.  We let go freely, and create perpetual abundance through giving.
 
-We work together in communities to make compromise, tolerance and good-will the most essential trade items we have to offer.\
+We work together in communities to make compromise, tolerance and good-will the most essential trade items we have to offer.  As equal beings, we care for one another with the same diligence as we offer ourselves.  We celebrate that which is permanent, unchanging, and ever present - the consistent source and force of life. \
 \
 **Healthy People, Healthy Communities**
 
