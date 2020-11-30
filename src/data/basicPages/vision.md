@@ -12,9 +12,11 @@ The term “yoga” translates from the Sanskrit word “yuj” meaning to join,
 
 Through yoga, we recognize the interconnectedness of all beings.  We aim to relate to one another with friendliness, tolerance and compassion.   As a discipline, we aim to establish peace within ourselves and peace for all beings.   It is through this inward connection that we self-realize and connect to the understanding of eternal grace, that which is greater than ourselves - the universal whole. 
 
-Separation can be seen all around us, and the duality of our everyday experience creates a harmony of balance, now, and through time.  Using the truth of the inner experience, we expand and broaden our depth of understanding of our own nature and that of our capacity to create.  It is this create force within us that is spurred onward by a recognition of non-dual reality.   
+Separation can be seen all around us, and the duality of our everyday experience creates a harmony of balance, now, and through time.  Using the truth of the inner experience, we expand and broaden our depth of understanding of our own nature and that of our capacity to create.  It is this creative force that is spurred onward by a recognition of non-dual reality.   
 
-By being prepared in each moment, accepting life as it it, we gain the flexibility of mind and body to weather any storm.   Without hesitation, we are clear in our firm actions, intentions and motivations to free ourselves from the ignorance of judgements, fear, and non-essential suffering.\
+By being prepared in each moment, accepting life as it it, we gain the flexibility of mind and body to weather any storm.  Without hesitation, we are clear in our firm actions, intentions and motivations to free ourselves from the ignorance of judgements, fear, and non-essential suffering.  
+
+We work together in communities to make compromise, tolerance and good-will the most essential trade items we have to offer.\
 \
 **Healthy People, Healthy Communities**
 
@@ -89,8 +91,6 @@ Many, many books have followed...
 **VII.  Dhyana**: Deep meditation where the self and the object become one. A smooth flow of concentration softens the whole body into space with full awareness.  I am not this body.
 
 **VIII.  Samadhi**: Bliss or oneness with the Divine, the highest stage of spiritual development. The state of self-realization and pure awareness that allows for a unity state of consciousness that is held in permanent attention.  The final limb is the attainment of the yogi on the path toward enlightenment, and may only be a fleeting moment of passing wholeness.
-
-
 
 **Hatha Yoga Pradipika, circa 15th Century**:  The most recent historical text on yoga, and the bridge to all yoga books that have followed.  This Pradipika lists in great detail all the main asana (postures), pranayama (breathing techniques), mudra (symbolic hand gestures), and bandha (subtle energy locks) that we practice today. 
 
