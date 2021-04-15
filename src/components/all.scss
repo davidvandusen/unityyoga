@@ -375,7 +375,7 @@ small {
   flex: 1;
 }
 
-.schedule-page {
+.fixed-embed-page {
   overflow-y: hidden;
 
   @media (min-width: 768px) {
@@ -383,7 +383,7 @@ small {
   }
 }
 
-.schedule-fixed-on-mobile {
+.embed-fixed-on-mobile {
   background: #eee;
   bottom: 0;
   left: 0;
@@ -395,7 +395,7 @@ small {
   &::before {
     align-items: center;
     bottom: 0;
-    content: 'Loading schedule...';
+    content: 'Loading...';
     display: flex;
     justify-content: center;
     left: 0;

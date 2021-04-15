@@ -10,6 +10,8 @@ links:
     linkPath: /
   - linkText: Schedule
     linkPath: /schedule/
+  - linkText: Content
+    linkPath: /content/
   - linkText: Vision
     linkPath: /vision/
   - linkText: Team

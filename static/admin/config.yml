@@ -140,6 +140,23 @@ collections:
           - label: Search Engine Description
             name: description
             widget: text
+      - file: src/data/customPages/contentLibrary.md
+        label: Content Library
+        name: contentLibrary
+        fields:
+          - label: Template Key
+            name: templateKey
+            widget: hidden
+            default: ContentLibraryPage
+          - label: Path
+            name: path
+            widget: string
+          - label: Title
+            name: title
+            widget: string
+          - label: Search Engine Description
+            name: description
+            widget: text
       - file: src/data/customPages/team.md
         label: Team
         name: team

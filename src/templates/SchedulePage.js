@@ -6,7 +6,7 @@ import { Helmet } from 'react-helmet';
 
 export const SchedulePageTemplate = () => (
   <main className="main-content wide">
-    <div className="mobile-only schedule-fixed-on-mobile">
+    <div className="mobile-only embed-fixed-on-mobile">
       <iframe
         frameBorder="0"
         height="100%"
@@ -63,7 +63,7 @@ const SchedulePage = ({
   return (
     <Layout description={description} title={title} withNav>
       <Helmet>
-        <body className="schedule-page" />
+        <body className="fixed-embed-page" />
       </Helmet>
       <SchedulePageTemplate title={title} />{' '}
     </Layout>
