@@ -10,15 +10,16 @@ links:
     linkPath: /
   - linkText: Schedule
     linkPath: /schedule/
-  - linkText: Content
+  - linkText: LIBRARY
     linkPath: /content/
   - linkText: Vision
     linkPath: /vision/
   - linkText: Team
     linkPath: /team/
 quoteImage: /img/quote.png
-quote: Healing, is not a science, but an intuitive art of wooing nature”
-quoteAttribution: " - W. H. Auden"
+quote: '"Yoga does not transform the way we see things.  It transforms the
+  person who sees."'
+quoteAttribution: " - BKS Iyengar"
 socialHeadingImage: /img/inharmonywithnature.png
 socialHeadingImageAlt: "#inharmonywithnature"
 socialHeadingHref: https://www.instagram.com/explore/tags/inharmonywithnature/
