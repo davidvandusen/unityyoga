@@ -1,6 +1,6 @@
 ---
 templateKey: ContentLibraryPage
 path: content
-title: Content Library
+title: Free Content
 description: Yoga class content library powered by PunchPass
 ---
